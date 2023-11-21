@@ -12,14 +12,15 @@ console.log("minusAge", minusAgePush);
 
 let sumOfAges = 0;
 
-for(let i = 0; i < ages.lenghth; i++){
+for(let i = 0; i < ages.length; i++){
     console.log(i, "Test");
 sumOfAges += ages[i]
 console.log("index:",i,"sumOfAges:", sumOfAges);
 }
 console.log("Total Sum", sumOfAges);
-let average = sumOfAges / ages.lenghth 
+let average = sumOfAges / ages.length 
 console.log("Average", average);
+
 
 let names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"];
 let totalChars = 0;
@@ -35,13 +36,13 @@ console.log("Average of Names:", averageName);
 
 
 let concatNames= "";
-for (let i = 0; i < names.lenght; i++) {
-concatNames = concatnames.concat(names[i] + " ");
+for (let i = 0; i < names.length; i++) {
+concatNames = concatNames.concat(names[i] + " ");
 console.log( i, "Names concatenated", concatNames);
 }
 
 
-console.log("First element of ages array:", ages[ages.lenght - 1]);
+console.log("First element of ages array:", ages[ages.length - 1]);
 
 console.log("First element of ages:", ages[0]);
 
@@ -82,7 +83,7 @@ let numbers2 = [1, 2, 3, 4]
 function sumNumbersArray(array){
     let total = 0;
 
-    for (let i = 0; i< array/length; i++){
+    for (let i = 0; i < array.length; i++){
        
         total += array[i]
         console.log("Total:", total);
